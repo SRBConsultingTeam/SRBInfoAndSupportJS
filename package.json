@@ -1,0 +1,41 @@
+{
+  "name": "srbinfoandsupportjs",
+  "version": "1.0.4",
+  "description": "A JS libraray for displaying a UI5 dialog, showing relevant application details, such as device, resolution, browser zoom , app version, last commit etc...",
+  "main": "src/SRBInfoAndSupport.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint src",
+    "pretty": "npx prettier --write .",
+    "build": "uglifyjs src/SRBInfoAndSupport.js --compress --mangle --output src/SRBInfoAndSupport.min.js",
+    "build-jsdoc": "jsdoc2md src/SRBInfoAndSupport.js > SRBInfoAndSupport_JSDOC.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SRBConsultingTeam/SRBInfoAndSupportJS.git"
+  },
+  "keywords": [
+    "UI5",
+    "dialog",
+    "app",
+    "info"
+  ],
+  "author": "Michael Henninger - SRB Consulting Team GmbH <m.henninger@srb.at> (https://www.srb.at/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SRBConsultingTeam/SRBInfoAndSupportJS/issues"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "jsdoc-to-markdown": "^8.0.0",
+    "json-loader": "^0.5.7",
+    "prettier": "2.2.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "homepage": "https://github.com/SRBConsultingTeam/SRBInfoAndSupportJS#readme",
+  "dependencies": {
+    "uglify-js": "^3.17.4"
+  }
+}
