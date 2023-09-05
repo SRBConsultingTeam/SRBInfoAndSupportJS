@@ -1,11 +1,11 @@
 {
   "name": "srbinfoandsupportjs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A JS libraray for displaying a UI5 dialog, showing relevant application details, such as device, resolution, browser zoom , app version, last commit etc...",
   "main": "src/SRBInfoAndSupport.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./node_modules/.bin/eslint src",
+    "lint": "./node_modules/.bin/eslint src/SRBInfoAndSupport.js",
     "pretty": "npx prettier --write .",
     "build": "uglifyjs src/SRBInfoAndSupport.js --compress --mangle --output src/SRBInfoAndSupport.min.js",
     "build-jsdoc": "jsdoc2md src/SRBInfoAndSupport.js > SRBInfoAndSupport_JSDOC.md"
@@ -18,7 +18,16 @@
     "UI5",
     "dialog",
     "app",
-    "info"
+    "info",
+    "logger",
+    "srb",
+    "log",
+    "ui5",
+    "javascript",
+    "js",
+    "sap",
+    "sapui5",
+    "openui5"
   ],
   "author": "Michael Henninger - SRB Consulting Team GmbH <m.henninger@srb.at> (https://www.srb.at/)",
   "license": "MIT",
