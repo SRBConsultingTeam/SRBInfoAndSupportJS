@@ -7,7 +7,7 @@
 /* global sap:true */
 
 // eslint-disable-next-line
-var SRBInfoAndSupport = (function () {
+window.SRBInfoAndSupport = (function () {
   "use strict";
 
   var pub = {

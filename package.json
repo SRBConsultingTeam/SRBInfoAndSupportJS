@@ -1,6 +1,6 @@
 {
   "name": "srbinfoandsupportjs",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "A JS libraray for displaying a UI5 dialog, showing relevant application details, such as device, resolution, browser zoom , app version, last commit etc...",
   "main": "src/SRBInfoAndSupport.js",
   "scripts": {
