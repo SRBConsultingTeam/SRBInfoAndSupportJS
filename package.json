@@ -1,7 +1,7 @@
 {
   "name": "srbinfoandsupportjs",
   "version": "1.0.8",
-  "description": "A JS libraray for displaying a UI5 dialog, showing relevant application details, such as device, resolution, browser zoom , app version, last commit etc...",
+  "description": "A JS library for displaying a UI5 dialog, showing relevant application details, such as device, resolution, browser zoom , app version, last commit etc...",
   "main": "src/SRBInfoAndSupport.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
