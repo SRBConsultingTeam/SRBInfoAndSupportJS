@@ -57,6 +57,13 @@ All displayed fixed data is loaded dynamically from configuration files. This ha
 
 ![Alt text](ressources/images/licenses.png)
 
+# [Demo](https://srbconsultingteam.github.io/SRBInfoAndSupportJS/demo/webapp/index.html)
+
+If you check out this project, there is a "demo" app to see how the library works. Simply clone the repo and run `npm run test` in the demo folder ( `npm install` required to install all necessary packages ).
+
+You can also use this link to see a working example:
+https://srbconsultingteam.github.io/SRBInfoAndSupportJS/demo/webapp/index.html
+
 ## Getting started
 
 **Initialize the SRBJSLogger via the NPM CDN:**

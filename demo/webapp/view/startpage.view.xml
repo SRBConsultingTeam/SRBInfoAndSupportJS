@@ -1,0 +1,35 @@
+<mvc:View controllerName="demoApp.controller.startpage" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:editor="sap.ui.codeeditor">
+  <Page id="startpage" showHeader="true" title="SRBInfoAndSupportJS Demo App" titleLevel="H1">
+    <VBox>
+      <Panel headerText="Initialization">
+        <Button text="SRBInfoAndSupport.init(...)" press='SRBInfoAndSupport.init({appname: "My testing app",version: "1.1.1",licenses: { MyLicense: "ABCABC" },copyright: "My version of the copyright",latestCommitHash: "asf82oap"});'></Button>
+        <editor:CodeEditor
+          type="javascript"
+          maxLines="1"
+          value='SRBInfoAndSupport.init({appname: "My testing app",version: "1.1.1",licenses: { MyLicense: "ABCABC" },copyright: "My version of the copyright",latestCommitHash: "asf82oap",});'
+        height="auto" />
+      </Panel>
+      <Panel headerText="Dialogs">
+        <Button text="SRBInfoAndSupport.showSupportDialog() - Using the values from initialization" press='SRBInfoAndSupport.showSupportDialog();'></Button>
+        <editor:CodeEditor
+          type="javascript"
+          maxLines="1"
+          value='SRBInfoAndSupport.showSupportDialog();'
+        height="auto" />
+        <Button class="sapUiSmallMarginTop" text="SRBInfoAndSupport.init(...) - Overwriting the values from init" press='SRBInfoAndSupport.showSupportDialog("My dialog title", {captureScreenshot: true});'></Button>
+        <editor:CodeEditor
+          type="javascript"
+          maxLines="1"
+          value='SRBInfoAndSupport.showSupportDialog("My dialog title", {captureScreenshot: true});'
+        height="auto" />
+        <Button class="sapUiSmallMarginTop" text="SRBInfoAndSupport.showOverviewDialog(...) - Overwriting the values from init" press='SRBInfoAndSupport.showOverviewDialog("Title");'></Button>
+        <editor:CodeEditor
+          type="javascript"
+          maxLines="1"
+          value='SRBInfoAndSupport.showOverviewDialog("Title");'
+        height="auto" />
+      </Panel>
+    </VBox>
+  </Page>
+</mvc:View>
